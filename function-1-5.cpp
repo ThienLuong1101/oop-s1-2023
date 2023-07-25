@@ -9,7 +9,7 @@ int count_evens(int number){
     for (int i = 1; i <= number; i++) {
         if (i % 2 == 0)
         {
-            total++;
+            total+= i;
         }
         
     }
