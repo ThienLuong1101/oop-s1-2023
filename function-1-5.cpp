@@ -5,14 +5,14 @@ int count_evens(int number){
     {
         return 0;
     }
-    int total = 0;
+    int sum = 0;
     for (int i = 1; i <= number; i++) {
         if (i % 2 == 0)
         {
-            total+= i;
+            sum++;
         }
         
     }
     
-    return total;
+    return sum;
 }
