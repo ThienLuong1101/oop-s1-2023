@@ -14,6 +14,12 @@ bool is_fanarray(int array[], int n) {
     {   
         int left_gap = array[left+1]-array[left];
         int right_gap = array[right-1]-array[right];
+        if (left_gap < 0 || right_gap < 0)
+        {
+            ans = false;
+            break;
+        }
+        
         if (left_gap != right_gap)
         {
             ans = false;

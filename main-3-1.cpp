@@ -3,9 +3,9 @@
 extern bool is_fanarray(int array[], int n);
 
 int main() {
-    int array[4] = {1,2,2,1};
+    int array[5] = {1,2,1,2,1};
 
-    bool ans = is_fanarray(array, 4);
+    bool ans = is_fanarray(array, 5);
 
     if (ans) {
         std::cout << "true." << std::endl;
