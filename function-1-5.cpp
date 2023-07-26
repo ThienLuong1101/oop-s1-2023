@@ -6,8 +6,12 @@ int count_evens(int number){
         return 0;
     }
     int total = 0;
-    for (int i = 2; i <= number; i= i + 2) {
-        total++;
+    for (int i = 1; i <= number; i++) {
+        if (i % 2 == 0)
+        {
+            total+= i;
+        }
+        
     }
     
     return total;
