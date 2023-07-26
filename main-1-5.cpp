@@ -1,5 +1,9 @@
 #include <iostream>
+<<<<<<< HEAD
 
+=======
+#include <iomanip>
+>>>>>>> ad29919f0c68bd1a2ea5756c7ec2cd6eb2f18bb3
 
 // The `extern` keyword tells the compiler that the count function exists,
 // but will be implemented somewhere else
