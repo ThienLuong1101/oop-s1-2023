@@ -1,10 +1,10 @@
 #include <iostream>
 #include <cmath>
 
-void transform(int base_10) {
+int main() {
     int digits[32]; // Assuming a 32-bit integer, adjust the size as needed
     int position = 0;
-
+    int base_10 = 75;
     while (base_10 != 0)
     {
         digits[position] = base_10 % 2;
@@ -17,5 +17,6 @@ void transform(int base_10) {
         std::cout << digits[i];
     }
     std::cout << std::endl;
+    return 0;
 
 }
