@@ -18,7 +18,7 @@ int main() {
 
     int ans1 = base_10_to_2(num1);
     int ans2 =  base_10_to_2(num2);
-    cout << ans1 << ans2 <<endl;
+
     int sum = add(ans1, ans2);
     int sub = subtract(ans1, ans2);
     cout << "sum (base2): ";
