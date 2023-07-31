@@ -1,0 +1,51 @@
+#include <iostream>
+#include <cmath>
+
+
+int array_min(int intergers[], int length){
+    if (length < 1)
+    {
+        return -1;
+    }
+    
+    int min = intergers[0];
+
+    for (int i = 1; i < length; i++)
+    {
+        if (intergers[i] < min)
+        {
+            min = intergers[i];
+        }
+        
+    }
+    return min;
+}
+
+int array_max(int intergers[], int length){
+    if (length < 1)
+    {
+        return -1;
+    }
+
+    int max = intergers[0];
+
+    for (int i = 1; i < length; i++)
+    {
+        if (intergers[i] > max)
+        {
+            max = intergers[i];
+        }
+        
+    }
+    return max;
+}
+
+int sum_min_max(int intergers[], int length){
+    if (length < 1)
+    {
+        return -1;
+    }
+    
+    int sum = array_max(intergers,length) + array_min(intergers,length);
+    return sum;
+}

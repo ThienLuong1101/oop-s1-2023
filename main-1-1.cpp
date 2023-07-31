@@ -1,9 +1,7 @@
 #include <iostream>
 using namespace std;
 
-extern int sum_diagonal(int array[4][4]) {
-    // The implementation of the function (as shown above)
-}
+extern int sum_diagonal(int array[4][4]);
 
 int main() {
     int matrix[4][4] = {
